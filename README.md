@@ -18,10 +18,10 @@
 * **延伸參考**：更多 n8n 相關整合應用可參考 [n8nAll 專案庫](https://github.com/ntust2026/n8nAll)。
 
 ### 4. `pic`：圖檔資源管理
-* **個人頭像**：首頁顯示的個人大頭照，請命名為 `mypic.jpg`。
+* **個人頭像**：首頁顯示的個人大頭照，請命名為 `mypic.jpg`上傳。
 * **作業圖片**：每一單元作業需提供三張圖，請遵循以下命名規則上傳：
   * **第一單元**：`unit1_1.jpg`, `unit1_2.jpg`, `unit1_3.jpg`
-  * 以此類推，確保系統能正確抓取圖片。
+  * 依此類推，確保系統能正確抓取圖片。
 
 ---
 
@@ -30,7 +30,7 @@
 本模板內建一個可嵌入任何 HTML 頁面的彈出式對話框。目前預設連向講師的 n8n 服務。
 
 ### 如何自訂您的機器人：
-1. **修改連結**：開啟 `chatbot.js` 檔案，在 **第 6 行** 將 Webhook 網址更換為您自己的 n8n 連結（目前預設為 `https://a3g.app.n8n.cloud/webhook/chat_webhook`）。
+1. **修改連結**：開啟 `chatbot.js` 檔案，在 **第 6 行** 將 Webhook 網址更換為您自己的 n8n 連結（目前預設為我的 `https://a3g.app.n8n.cloud/webhook/chat_webhook`）。
 2. **嵌入網頁**：在您的 HTML 檔案（如 `index.html`）中的 `<body>` 標籤之前加入腳本引用：
    ```html
    ...
